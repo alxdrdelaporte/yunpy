@@ -18,12 +18,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
 license-files = ["LICEN[CS]E*", "AUTHORS.md"]
-dependencies = [
-    "pip>=25.1.1",
-    "pytest>=8.4.1",
-    "setuptools>=80.9.0,<=81.0",
-    "wheel>=0.45.1"
-]
+dependencies = []
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
@@ -33,14 +28,9 @@ classifiers = [
     "License :: OSI Approved :: MIT License"
 ]
 
-[tool.setuptools]
-include-package-data = true
-
-[tool.setuptools.package-data]
-"yunpy" = ["sources/*.csv", "example_input/*.txt"]
-
 [project.urls]
-Repository = "https://github.com/yunpy"
+Repository = "https://github.com/alxdrdelaporte/yunpy"
+Issues = "https://github.com/alxdrdelaporte/yunpy/issues"
 
 [project.scripts]
 database = "yunpy.cli:show_database_stats"
@@ -48,3 +38,21 @@ howtoread = "yunpy.cli:show_character_readings"
 charinfo = "yunpy.cli:show_character_info"
 webanno = "yunpy.cli:convert_to_webanno"
 yunpyxml = "yunpy.cli:convert_to_xml"
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.4.1",
+    "black",
+    "flake8",
+    "setuptools>=80.9.0",
+    "wheel",
+]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"yunpy" = ["sources/*.csv", "example_input/*.txt"]
