@@ -1,4 +1,4 @@
-name: Build and publish to TestPyPI and PyPI (Trusted Publisher)
+name: Publish to PyPI
 
 on:
   push:

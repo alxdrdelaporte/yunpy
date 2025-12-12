@@ -3,8 +3,7 @@
 [![PyPI version](https://img.shields.io/pypi/v/yunpy?color=blue)](https://pypi.org/project/yunpy/)
 [![Python versions](https://img.shields.io/pypi/pyversions/yunpy)](https://pypi.org/project/yunpy/)
 [![License](https://img.shields.io/pypi/l/yunpy)](LICENSE)
-[![Build status](https://github.com/alxdrdelaporte/yunpy/actions/workflows/publish.yml/badge.svg)](https://github.com/username/yunpy/actions)
-
+![Build](https://github.com/alxdrdelaporte/yunpy/actions/workflows/publish.yml/badge.svg?event=release)
 
 This library automatically adds Middle Chinese phonetic glosses to plain text files, and converts the `.txt` format into annotated Webanno TSV 3.3 or XML.
 
