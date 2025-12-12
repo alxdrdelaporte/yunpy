@@ -3,7 +3,6 @@ name: Build and publish to TestPyPI and PyPI (Trusted Publisher)
 on:
   push:
     branches: [ main ]
-  push:
     tags:
       - 'v*.*.*'
 
