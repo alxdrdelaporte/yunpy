@@ -24,8 +24,7 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Scientific/Engineering",
     "Topic :: Text Processing :: Linguistic",
-    "Intended Audience :: Science/Research",
-    "License :: OSI Approved :: MIT License"
+    "Intended Audience :: Science/Research"
 ]
 
 [project.urls]
