@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "yunpy"
-version = "0.1.0"
+version = "0.1.0.dev1"
 description = "A library for phonetic annotation in Middle Chinese"
 keywords = ["phonetics", "phonology", "Middle Chinese", "chinese", "linguistics", "historical linguistics"]
 authors = [
