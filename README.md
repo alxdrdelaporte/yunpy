@@ -1,5 +1,11 @@
 # YunPy
 
+[![PyPI version](https://img.shields.io/pypi/v/yunpy?color=blue)](https://pypi.org/project/yunpy/)
+[![Python versions](https://img.shields.io/pypi/pyversions/yunpy)](https://pypi.org/project/yunpy/)
+[![License](https://img.shields.io/pypi/l/yunpy)](LICENSE)
+[![Build status](https://github.com/alxdrdelaporte/yunpy/actions/workflows/publish.yml/badge.svg)](https://github.com/username/yunpy/actions)
+
+
 This library automatically adds Middle Chinese phonetic glosses to plain text files, and converts the `.txt` format into annotated Webanno TSV 3.3 or XML.
 
  The converter is based on the [PHONO-ML database](https://doi.org/10.5281/zenodo.17349142), which maps Chinese characters to Middle Chinese readings (26 224 entries), rendering each reading in the [Baxter-Sagart reconstruction](https://sites.lsa.umich.edu/ocbaxtersagart/). The tool supports single-file and recursive directory processing via both a command-line interface and programmatic usage in Python.
