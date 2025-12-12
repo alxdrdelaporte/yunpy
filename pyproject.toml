@@ -17,7 +17,7 @@ maintainers = [
 readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
-license-files = ["LICEN[CS]E*"]
+license-files = ["LICEN[CS]E*", "AUTHORS.md"]
 dependencies = [
     "yunpy==0.1.0",
     "pip>=25.1.1",
