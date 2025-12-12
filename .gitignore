@@ -1,0 +1,103 @@
+# =========================
+# Python Development
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Installer Logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit Test / Coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Mypy / Type Checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Profiling
+*.prof
+*.lprof
+*.pstat
+profile_output/
+
+# Logs / Local DBs
+*.log
+*.sqlite3
+*.db
+
+# Editors
+*.swp
+*.swo
+*.bak
+*~
+*.tmp
+*.~undo-tree~
+
+# =========================
+# IDEs
+# =========================
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+
+# =========================
+# OS-Specific
+# =========================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.Trash-*
+
+# =========================
+# Software-Specific
+# =========================
+output/
+webanno_output/
+xml_output/
