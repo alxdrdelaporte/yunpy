@@ -17,7 +17,7 @@ maintainers = [
 readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
-license-files = ["LICEN[CS]E*", "AUTHORS.md"]
+license-files = ["LICENSE", "AUTHORS.md"]
 dependencies = []
 classifiers = [
     "Programming Language :: Python :: 3",
